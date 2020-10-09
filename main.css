@@ -1,5 +1,4 @@
-CSS EXERCISES
-        /*1  Give a maximum width to the body and center it in the page
+/*1  Give a maximum width to the body and center it in the page
         12 et every h1 to be centered
         13 hange the color of each link in the page
         14 reate a class with a border
@@ -9,14 +8,13 @@ CSS EXERCISES
         18 reate a class to hide a content
         19  Add a green border to each td
         20 Add a dotted red border to each tr (note: tr does not accept a border property ;-) )*/
-        
 
 body {
   width: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/*h1 {
+h1 {
   text-align: center;
 }
 
@@ -58,4 +56,11 @@ p {
 
 .ghost {
   display: none;
-}*/
+}
+
+table {
+  border-collapse: collapse;
+}
+.border {
+  border: dotted 5px red;
+}
