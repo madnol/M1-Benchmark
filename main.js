@@ -56,12 +56,36 @@ let minMax = function () {
 
 console.log(minMax());
 
-let masterArrey = [];
-let arrayOfNumber = [];
+let longArr = [];
+let shortArr = [];
 
 for (i = 0; i < 10; i++) {
-  arrayOfNumber.push(Math.floor(Math.random() * 10 + 1));
-  masterArrey.push(arrayOfNumber)[i];
+  longArr.push(i);
 }
 
-console.log(masterArrey);
+for (i = 0; i < 5; i++) {
+  shortArr.push(i);
+}
+
+let longest = function () {
+  if (longArr > shortArr) {
+    return longArr;
+  } else {
+    return shortArr;
+  }
+};
+
+console.log(longest());
+
+let longSum = longArr.reduce((a, b) => a + b, 0);
+let shortSum = shortArr.reduce((a, b) => a + b, 0);
+
+let highValue = function () {
+  if (longSum > shortSum) {
+    return longSum;
+  } else {
+    return shortSum;
+  }
+};
+
+console.log(highValue());
