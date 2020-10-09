@@ -13,10 +13,10 @@ CSS EXERCISES
 
 body {
   width: 100%;
-  font-family: roboto, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 {
+/*h1 {
   text-align: center;
 }
 
@@ -29,11 +29,13 @@ a {
   border: solid 1px red;
 }
 
-table tr,
-table td {
-  border: solid 2px black;
+table tr {
   background-color: white;
   border-radius: 5px;
+}
+
+table td {
+  border: solid 2px green;
 }
 
 table {
@@ -53,3 +55,7 @@ table img {
 p {
   margin: 0 25px;
 }
+
+.ghost {
+  display: none;
+}*/
